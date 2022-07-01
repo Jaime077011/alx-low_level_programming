@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - prints the last digit
+ * main - prints the last digit of the number
  * number stored in the variable n
- * return: always 0
+ * Return: Always 0 (success)
  */
 int main(void)
 {
