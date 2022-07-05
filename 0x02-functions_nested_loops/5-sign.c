@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_sign - prints the sign of a number 
+ * print_sign - prints the sign of a number
  * @n: the number we want to check
  * Return:1 if + , 0 if 0 , -1 if -
  */
@@ -16,7 +16,7 @@ int print_sign(int n)
 	{
 		_putchar('0');
 		return (0);
-	} else 
+	} else if
 	{
 		_putchar('-');
 	}
