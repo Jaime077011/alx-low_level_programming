@@ -4,13 +4,14 @@
 /**
  * main - print fizz if the nuber divide by 3,
  * buzz if divieded by 5, fizzbuzz if both
+ * @
  * Return: always (0) success
  */
 int main(void)
 {
 	int i;
 
-	for (i = 1; i < 101; i++)
+	for (i = 1; i <= 100; i++)
 	{
 		if (i % 15 == 0)
 		{
