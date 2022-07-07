@@ -2,7 +2,7 @@
 #include "stdio.h"
 
 /**
- * main - print fizz if the nuber divide by 3 ,
+ * main - print fizz if the nuber divide by 3,
  * buzz if divieded by 5, fizzbuzz if both
  * Return: always (0)
  */
@@ -16,7 +16,7 @@ int main(void)
 		if (i % 15 == 0)
 		{
 			printf("FizzBuzz");
-		}	
+		}
 		else if (i % 5 == 0)
 		{
 			printf("Buzz");
