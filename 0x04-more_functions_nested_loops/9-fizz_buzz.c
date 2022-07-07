@@ -6,7 +6,6 @@
  * buzz if divieded by 5, fizzbuzz if both
  * Return: always (0) success
  */
-
 int main(void)
 {
 	int i;
