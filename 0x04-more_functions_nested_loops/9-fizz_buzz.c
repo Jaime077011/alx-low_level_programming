@@ -4,7 +4,7 @@
 /**
  * main - print fizz if the nuber divide by 3,
  * buzz if divieded by 5, fizzbuzz if both
- * Return: always (0)
+ * Return: always (0) success
  */
 
 int main(void)
@@ -13,7 +13,7 @@ int main(void)
 
 	for (i = 1; i < 101; i++)
 	{
-		if (i % 15 == 0)
+		if ((i % 5 == 0) && (i % 3 == 0))
 		{
 			printf("FizzBuzz");
 		}
