@@ -3,7 +3,8 @@
 
 /**
  * main - print fizz if the number divide
- *
+ * but for multiples of three prints Fizz instead of the number
+ * and for the multiples of five prints Buzz
  * Return: always (0) success
  */
 int main(void)
