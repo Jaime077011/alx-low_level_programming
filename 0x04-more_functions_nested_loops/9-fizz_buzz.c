@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - print fizz if the nuber divide by 3
+ * main - print fizz if the number divide
  *
  * Return: always (0) success
  */
@@ -24,14 +24,13 @@ int main(void)
 		{
 			printf("Fizz");
 		}
-		else
+		else if (i == 1)
 		{
 			printf("%d", i);
 		}
-
-		if ( i != 100)
+		else
 		{
-			printf(" ");
+			printf(" %d", i);
 		}
 	}
 
