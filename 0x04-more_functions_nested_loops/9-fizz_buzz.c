@@ -10,15 +10,15 @@ int main(void)
 {
 	int i;
 
-	for (i = 0; i < 101; i++)
+	for (i = 1; i < 101; i++)
 	{
 		if (i % 15 == 1)
-			printf("FizzBuzz");
+			_putchar("FizzBuzz");
 		else if (i % 5 == 1)
-			printf("Buzz");
+			_putchar("Buzz");
 		else if (i % 3 == 1)
-			printf("Fizz");
+			_putchar("Fizz");
 		else
-			printf(i);
+			_putchar(i);
 	}
 }
