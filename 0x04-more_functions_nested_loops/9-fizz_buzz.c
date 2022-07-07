@@ -1,5 +1,5 @@
 #include "main.h"
-#include "stdio.h"
+#include <stdio.h>
 
 /**
  * main - print fizz if the nuber divide by 3
